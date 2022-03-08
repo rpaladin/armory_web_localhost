@@ -28,3 +28,9 @@ You will still need to state the path to your Python version however
 2. The `WEB_DIR` variable represents where your downloaded [armory_web](https://github.com/armory3d/armory_web) folder resides
 
 3. THe `PY_SCRIPT` variable represents where the downloaded PY script from this repository resides
+
+# Original Scripts
+
+* <https://stackabuse.com/serving-files-with-pythons-simplehttpserver-module/>
+
+* <https://pythonbasics.org/webserver/>
