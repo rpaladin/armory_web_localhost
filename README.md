@@ -19,7 +19,7 @@
 4. Type in `localhost` or `localhost:80` in a browser URL address<br />
 **NOTE:** You may need to tweak the port number in `Localhost_&_Redirects.py` if port `80` is already taken
 
-## File-Paths Explained
+# File-Paths Explained
 
 1. The `PATH` variable represents where your downloaded Python executable resides<br />
 **NOTE:** Blender ships with Python, meaning no need to download Python if you already have Blender installed<br />
