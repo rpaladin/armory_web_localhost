@@ -29,7 +29,7 @@ You will still need to state the path to your Python version however
 
 3. THe `PY_SCRIPT` variable represents where the downloaded PY script from this repository resides
 
-# Original Scripts
+# Partial Credits
 
 * <https://stackabuse.com/serving-files-with-pythons-simplehttpserver-module/>
 
