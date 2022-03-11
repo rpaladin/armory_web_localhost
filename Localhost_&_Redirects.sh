@@ -15,13 +15,12 @@ find_python() {
 }
 
 usage() {
-    printf        'Usage: %s <www_dir> [server_path] [python_path]\n' "${1}"
+    printf 'Usage: %s <www_dir> [server_path] [python_path]\n' "${1}"
     printf '%s\n' '    www_dir: The directory containing the files.'
     printf '%s\n' '    server_path: The path the python script is located at.'
     printf '%s\n' '    python_path: The path the python executable is located at.'
     exit "${2}"
 }
-
 
 if test "${#}" -lt 1 || test "${#}" -gt 3;then
     usage "${0}" 1
