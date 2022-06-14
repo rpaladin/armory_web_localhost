@@ -1,7 +1,7 @@
 import http.server, socketserver
 IP = "localhost"
 PORT = 80
-sections = ["/news", "/community", "/notes", "/download"]
+sections = ["/news", "/notes", "/features", "/community", "/download"]
 class HTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == "" or self.path == "/":
